@@ -1,0 +1,17 @@
+{
+  "Bootcamp hello": {
+    "prefix": "bootcamp-hello",
+    "body": ["message(\"Hello from Posit Bootcamp Lab Snippets v__VERSION__\")"],
+    "description": "Shows which version of the bootcamp lab extension is installed"
+  },
+  "Package Manager CRAN binaries": {
+    "prefix": "ppm-repos",
+    "body": ["options(repos = c(CRAN = \"https://${1:ppm-host}/${2:cran}/__linux__/${3:noble}/latest\"))"],
+    "description": "Point R at a Posit Package Manager CRAN repository that serves Linux binaries"
+  },
+  "Deploy to Connect": {
+    "prefix": "connect-deploy",
+    "body": ["rsconnect::deployApp(appDir = \"${1:.}\", appName = \"${2:my-app}\", server = \"${3:connect-server}\")"],
+    "description": "Deploy the current directory to Posit Connect with rsconnect"
+  }
+}

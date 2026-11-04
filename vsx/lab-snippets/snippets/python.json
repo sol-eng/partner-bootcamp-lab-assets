@@ -1,0 +1,17 @@
+{
+  "Bootcamp hello": {
+    "prefix": "bootcamp-hello",
+    "body": ["print(\"Hello from Posit Bootcamp Lab Snippets v__VERSION__\")"],
+    "description": "Shows which version of the bootcamp lab extension is installed"
+  },
+  "Connect SDK client": {
+    "prefix": "connect-client",
+    "body": [
+      "from posit import connect",
+      "",
+      "client = connect.Client()  # reads CONNECT_SERVER and CONNECT_API_KEY",
+      "print(client.me)"
+    ],
+    "description": "Create a Posit Connect SDK client from the session environment"
+  }
+}

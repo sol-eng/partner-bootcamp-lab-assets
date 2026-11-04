@@ -1,0 +1,18 @@
+{
+  "name": "lab-snippets",
+  "displayName": "Posit Bootcamp Lab Snippets",
+  "description": "Sample private extension for the Posit Partner Bootcamp Package Manager lab: R, Python, and Quarto snippets for Posit admin tasks.",
+  "version": "1.0.1",
+  "publisher": "posit-bootcamp",
+  "engines": { "vscode": "^1.75.0" },
+  "categories": ["Snippets"],
+  "keywords": ["posit", "bootcamp", "package manager", "connect"],
+  "repository": { "type": "git", "url": "https://github.com/sol-eng/partner-bootcamp-lab-assets" },
+  "contributes": {
+    "snippets": [
+      { "language": "r", "path": "./snippets/r.json" },
+      { "language": "python", "path": "./snippets/python.json" },
+      { "language": "quarto", "path": "./snippets/quarto.json" }
+    ]
+  }
+}

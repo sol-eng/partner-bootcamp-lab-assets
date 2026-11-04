@@ -1,0 +1,7 @@
+{
+  "Bootcamp report header": {
+    "prefix": "bootcamp-report",
+    "body": ["---", "title: \"${1:Bootcamp report}\"", "format: html", "execute:", "  echo: false", "---", "", "$0"],
+    "description": "Front matter for a Quarto report you plan to publish to Posit Connect"
+  }
+}
